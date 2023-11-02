@@ -22,6 +22,12 @@ a {
     font-style: italic;
 }
 
+.inter_heading {
+    color: #ffffff;
+    -webkit-text-stroke: 1.5px rgba(0, 5, 149, 0.655);
+    font-size: 120%;
+    margin-bottom: 20px;
+}
 
 
 header {
@@ -49,7 +55,7 @@ nav ul li {
 
 #home {
     min-width: 100%;
-    min-height: 650px;
+    min-height: 600px;
     margin-bottom: 5%;
 }
 
@@ -81,6 +87,10 @@ nav ul li {
 
 /* home responsive */
 @media only screen and (max-width: 1400px) {
+    #home {
+        min-height: 550px;
+    }
+
     .images {
         width: 380px;
         left: 9%;
@@ -89,11 +99,15 @@ nav ul li {
 
     #profile {
         font-size: 67px;
-        right: 11.5%;   
+        right: 11.5%;
     }
 }
 
 @media only screen and (max-width: 1280px) {
+    #home {
+        min-height: 510px;
+    }
+
     .images {
         width: 350px;
     }
@@ -106,6 +120,10 @@ nav ul li {
 
 
 @media only screen and (max-width: 1120px) {
+    #home {
+        min-height: 480px;
+    }
+
     .images {
         width: 330px;
     }
@@ -118,6 +136,10 @@ nav ul li {
 
 
 @media only screen and (max-width: 1000px) {
+    #home {
+        min-height: 450px;
+    }
+
     .images {
         width: 310px;
         position: relative;
@@ -140,31 +162,35 @@ nav ul li {
 #featured_video {
     min-width: 100%;
     min-height: 650px;
-    align-items: center;
     font-size: 34px;
     /* background-color: #09e2ff; */
 }
 
 
-.content {
+.content_body {
     /* background-color: rgb(7, 2, 65); */
     max-width: 92%;
     margin: 0% auto;
 }
 
-.content b {
+.heading {
     color: #0188cc;
     -webkit-text-stroke: 2px rgba(0, 5, 149, 0.655);
     font-size: 120%;
     margin-bottom: 20px;
 }
 
-.content p {
+.content_body p {
     color: #0194de;
     -webkit-text-stroke: 2px rgba(0, 5, 149, 0.655);
     font-size: 120%;
-    margin-left: 5%;
-    margin-top: 1%;
+    /* margin-left: 5%;
+    margin-top: 1%; */
+}
+
+.content {
+    padding-top: 2%;
+    padding-left: 5%;
 }
 
 .yt_video {
@@ -173,3 +199,122 @@ nav ul li {
     margin: 1% 0;
 }
 
+@media only screen and (max-width: 1400px) {
+    .yt_video {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .yt_video {
+        width: 70%;
+        height: 360px;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .yt_video {
+        width: 80%;
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .yt_video {
+        width: 90%;
+        height: 280px;
+    }
+}
+
+
+
+/* Movies  */
+
+#movies {
+    min-width: 100%;
+    min-height: 650px;
+    font-size: 34px;
+    padding: 2% 5%;
+}
+
+
+#movies .mov_sec {
+    max-width: 86%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6.5% auto;
+}
+
+.movie_details {
+    max-width: 51%;
+}
+.left {
+    margin-right: 11%;
+}
+
+.movie_details .mpara {
+    color: #ffffff;
+    -webkit-text-stroke: 0.7px rgba(0, 5, 149, 0.655);
+    font-size: 65%;
+    margin-top: 3%;
+    margin-left: 4%;
+    /* max-height: 360px; */
+}
+
+.movie_details .num {
+    color: #6f6f6f;
+    -webkit-text-stroke: 0, 7px rgba(0, 5, 149, 0.655);
+    font-size: 50%;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+@media only screen and (max-width: 1540px) {
+    .left {
+        margin-right: 7%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .movie_poster img {
+        max-width: 300px;
+    }
+    .movie_details {
+        max-width: 55%;
+    }
+    .left {
+        margin-right: 9%;
+    }
+    #movies {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 1120px) {}
+
+@media only screen and (max-width: 1080px) {
+    .movie_poster img {
+        margin-top: 8%;
+        max-width: 200px;
+    }
+    #movies {
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+
+
+
+/* Responsive frame */
+
+@media only screen and (max-width: 1400px) {}
+
+@media only screen and (max-width: 1280px) {}
+
+@media only screen and (max-width: 1120px) {}
+
+@media only screen and (max-width: 1000px) {}
