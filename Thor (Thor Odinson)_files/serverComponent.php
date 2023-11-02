@@ -1,0 +1,2 @@
+
+Bootstrapper._serverTime = '2023-11-02 17:39:58'; Bootstrapper._clientIP = '54.250.240.144'; Bootstrapper.insertPageFiles(['https://dcf.espn.com/TWDC-DTCI/prod/code/ed9cc89e72efe4115d590b2b9169c222.js?conditionId0=4871166','https://dcf.espn.com/TWDC-DTCI/prod/code/053ea0c165ce34850cfa5c7171e55977.js?conditionId0=4905270','https://dcf.espn.com/TWDC-DTCI/prod/code/b07dcd916055909c90cdc631ee66e80b.js?conditionId0=4905157','https://dcf.espn.com/TWDC-DTCI/prod/code/a5e4950c5ce3153acac8c100308862ed.js?conditionId0=4908201']);Bootstrapper.setPageSpecificDataDefinitionIds([63847]);
