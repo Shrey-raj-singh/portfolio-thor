@@ -54,23 +54,28 @@ nav ul li {
 /* home */
 
 #home {
-    min-width: 100%;
-    min-height: 600px;
-    margin-bottom: 5%;
+    min-width: 70%;
+    min-height: 650px;
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
 }
 
 .images {
-    width: 400px;
-    position: absolute;
-    left: 10%;
-    top: 25%;
+    min-width: 500px;
+    height: 550px;
+    margin: 0% auto;
+}
+.images img {
+    width: 100%;
 }
 
 #profile {
+    min-width: 400px;
+    max-height: 350px;
     font-size: 72px;
-    position: absolute;
-    top: 32%;
-    right: 13%;
+    margin: auto;
 }
 
 #profile b {
@@ -85,75 +90,27 @@ nav ul li {
     margin-left: 12px;
 }
 
-/* home responsive */
-@media only screen and (max-width: 1400px) {
-    #home {
-        min-height: 550px;
-    }
-
+@media only screen and (max-width: 1080px) {
     .images {
-        width: 380px;
-        left: 9%;
-        top: 22%;
+        min-width: 700px;
+        height: 750px;
+        margin: 0% auto;
     }
-
+    .images img {
+        width: 100%;
+    }
     #profile {
-        font-size: 67px;
-        right: 11.5%;
-    }
+        min-width: 400px;
+        max-height: 350px;
+        font-size: 108px;
+        margin: auto;
+    } 
+    #home {
+        padding: 2%;
+        margin-bottom: 15%;
+    }  
 }
 
-@media only screen and (max-width: 1280px) {
-    #home {
-        min-height: 510px;
-    }
-
-    .images {
-        width: 350px;
-    }
-
-    #profile {
-        font-size: 62px;
-        right: 11%;
-    }
-}
-
-
-@media only screen and (max-width: 1120px) {
-    #home {
-        min-height: 480px;
-    }
-
-    .images {
-        width: 330px;
-    }
-
-    #profile {
-        font-size: 60px;
-        right: 11%;
-    }
-}
-
-
-@media only screen and (max-width: 1000px) {
-    #home {
-        min-height: 450px;
-    }
-
-    .images {
-        width: 310px;
-        position: relative;
-        top: 130px;
-        left: 60%;
-        transform: scaleX(-1);
-    }
-
-    #profile {
-        font-size: 54px;
-        top: 234px;
-        left: 9%;
-    }
-}
 
 
 /* home over  */
@@ -201,28 +158,28 @@ nav ul li {
 
 @media only screen and (max-width: 1400px) {
     .yt_video {
-        height: 400px;
+        height: 550px;
     }
 }
 
 @media only screen and (max-width: 1280px) {
     .yt_video {
         width: 70%;
-        height: 360px;
+        /* height: 360px; */
     }
 }
 
 @media only screen and (max-width: 1120px) {
     .yt_video {
         width: 80%;
-        height: 320px;
+        /* height: 320px; */
     }
 }
 
 @media only screen and (max-width: 1000px) {
     .yt_video {
         width: 90%;
-        height: 280px;
+        /* height: 280px; */
     }
 }
 
