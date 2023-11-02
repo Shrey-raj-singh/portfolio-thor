@@ -302,6 +302,16 @@ nav ul li {
     }
 }
 
+@media only screen and (max-width: 1080px) {
+    .movie_poster img {
+        margin-top: 8%;
+        max-width: 200px;
+    }
+    #movies {
+        font-size: 12px;
+    }
+}
+
 
 
 
