@@ -111,8 +111,8 @@ nav ul li {
 
     #home {
         padding: 2%;
-        margin-bottom: 15%;
-        min-height: 850px;
+        margin-bottom: 45%;
+        /* min-height: 850px; */
     }
 }
 
@@ -144,7 +144,7 @@ nav ul li {
 
 .content_body p {
     color: #ffffff;
-    -webkit-text-stroke: 2px rgba(0, 5, 149, 0.655);
+    -webkit-text-stroke: 1px rgba(0, 5, 149, 0.655);
     font-size: 120%;
     /* margin-left: 5%;
     margin-top: 1%; */
