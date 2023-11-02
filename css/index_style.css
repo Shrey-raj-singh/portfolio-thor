@@ -16,8 +16,8 @@ body {
 
 a {
     text-decoration: none;
-    color: #09e2ff;
-    -webkit-text-stroke: 1px rgba(0, 5, 149, 0.655);
+    color: rgb(132, 220, 255);
+    -webkit-text-stroke: 0.51px rgba(0, 5, 149, 0.655);
     font-size: 24px;
     font-style: italic;
 }
@@ -81,12 +81,12 @@ nav ul li {
 
 #profile b {
     font-size: 250%;
-    color: #09e2ff;
+    color: #90dfea;
     -webkit-text-stroke: 4px rgba(0, 5, 149, 0.655);
 }
 
 #profile p {
-    color: #09e2ff;
+    color: #81deeb;
     -webkit-text-stroke: 2px rgba(0, 5, 149, 0.655);
     margin-left: 12px;
 }
