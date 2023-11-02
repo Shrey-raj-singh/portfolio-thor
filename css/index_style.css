@@ -67,6 +67,7 @@ nav ul li {
     height: 550px;
     margin: 0% auto;
 }
+
 .images img {
     width: 100%;
 }
@@ -96,19 +97,23 @@ nav ul li {
         height: 750px;
         margin: 0% auto;
     }
+
     .images img {
         width: 100%;
     }
+
     #profile {
         min-width: 400px;
         max-height: 350px;
         font-size: 108px;
         margin: auto;
-    } 
+    }
+
     #home {
         padding: 2%;
         margin-bottom: 15%;
-    }  
+        min-height: 850px;
+    }
 }
 
 
@@ -131,14 +136,14 @@ nav ul li {
 }
 
 .heading {
-    color: #0188cc;
+    color: #fbfbfb;
     -webkit-text-stroke: 2px rgba(0, 5, 149, 0.655);
     font-size: 120%;
     margin-bottom: 20px;
 }
 
 .content_body p {
-    color: #0194de;
+    color: #ffffff;
     -webkit-text-stroke: 2px rgba(0, 5, 149, 0.655);
     font-size: 120%;
     /* margin-left: 5%;
@@ -205,6 +210,7 @@ nav ul li {
 .movie_details {
     max-width: 51%;
 }
+
 .left {
     margin-right: 11%;
 }
@@ -236,12 +242,15 @@ nav ul li {
     .movie_poster img {
         max-width: 300px;
     }
+
     .movie_details {
         max-width: 55%;
     }
+
     .left {
         margin-right: 9%;
     }
+
     #movies {
         font-size: 32px;
     }
@@ -254,6 +263,7 @@ nav ul li {
         margin-top: 8%;
         max-width: 200px;
     }
+
     #movies {
         font-size: 24px;
     }
@@ -264,6 +274,7 @@ nav ul li {
         margin-top: 8%;
         max-width: 200px;
     }
+
     #movies {
         font-size: 12px;
     }
